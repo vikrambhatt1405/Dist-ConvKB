@@ -1,0 +1,14 @@
+python train.py --embedding_dim 100 --num_filters 50 --learning_rate 0.000005 --name FB15k-237 --useConstantInit --model_name fb15k237
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=5e-06, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='./', saveStep=200, testIdx=1, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+2018-11-14 01:49:06.331577: E tensorflow/stream_executor/cuda/cuda_driver.cc:397] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+Writing to /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/ConvKB/runs/fb15k237
+
+Tensorboard loags created at: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/ConvKB/runs/fb15k237/tf_logs
+Saved model checkpoint to /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/ConvKB/runs/fb15k237/checkpoints/model-200
+
+Total number of global steps till end: 427326
+Total number of training steps till end: 427326
+
