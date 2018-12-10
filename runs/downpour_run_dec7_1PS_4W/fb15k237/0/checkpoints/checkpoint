@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119257"
+all_model_checkpoint_paths: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119043"
+all_model_checkpoint_paths: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119093"
+all_model_checkpoint_paths: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119147"
+all_model_checkpoint_paths: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119203"
+all_model_checkpoint_paths: "/home/vikrambhatt/ConvKB/runs/fb15k237/0/checkpoints/model.ckpt-119257"
