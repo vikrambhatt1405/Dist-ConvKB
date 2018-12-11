@@ -7,8 +7,7 @@ import datetime
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 from builddata import *
 from model import ConvKB
-# Parameters
-# ==================================================
+
 parser = ArgumentParser("CapsE", formatter_class=ArgumentDefaultsHelpFormatter, conflict_handler='resolve')
 
 parser.add_argument("--data", default="./data/", help="Data sources.")
@@ -40,7 +39,7 @@ parser.add_argument("--decode", action='store_false')
 args = parser.parse_args()
 print(args)
 
-# Load data
+
 print("Loading data...")
 
 train, valid, test, words_indexes, indexes_words, \
@@ -85,13 +84,7 @@ y_test = np.array(list(test.values())).astype(np.float32)
 len_test = len(x_test)
 batch_test = int(len_test / (args.num_splits - 1))
 
-# uncomment when tuning hyper-parameters on the validation set
-# x_test = x_valid
-# y_test = y_valid
-# len_test = len_valid
-# batch_test = batch_valid
 
-##########################################
 
 if args.decode == False:
     lstModelNames = list(args.model_name.split(","))
@@ -137,7 +130,7 @@ else:
                 is_trainable=args.is_trainable,
                 useConstantInit=args.useConstantInit)
 
-            # Output directory for models and summaries
+     
 
             lstModelNames = list(args.model_name.split(","))
 
@@ -146,7 +139,7 @@ else:
                 out_dir = os.path.abspath(os.path.join(args.run_folder, _model_name))
                 print("Evaluating {}\n".format(out_dir))
 
-                # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
+               
                 checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
                 checkpoint_prefix = os.path.join(checkpoint_dir, "model")
 
@@ -160,7 +153,7 @@ else:
 
                     print("Loaded model", _file)
 
-                    # Predict function to predict scores for test data
+  
                     def predict(x_batch, y_batch, writer=None):
                         feed_dict = {
                             cnn.input_x: x_batch,
