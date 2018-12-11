@@ -1,0 +1,5 @@
+model_checkpoint_path: "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/runs/fb15k237/checkpoints/model-200"
+all_model_checkpoint_paths: "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/runs/fb15k237/checkpoints/model-50"
+all_model_checkpoint_paths: "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/runs/fb15k237/checkpoints/model-100"
+all_model_checkpoint_paths: "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/runs/fb15k237/checkpoints/model-150"
+all_model_checkpoint_paths: "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/runs/fb15k237/checkpoints/model-200"
