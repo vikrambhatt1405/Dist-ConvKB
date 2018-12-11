@@ -42,7 +42,7 @@ parser.add_argument("--decode", action='store_false')
 args = parser.parse_args()
 print(args)
 
-# Load data
+
 print("Loading data...")
 
 train, valid, test, words_indexes, indexes_words, \
@@ -108,8 +108,7 @@ with tf.Graph().as_default():
             useConstantInit=args.useConstantInit)
 
         optimizer = tf.train.AdamOptimizer(learning_rate=args.learning_rate)
-        # optimizer = tf.train.RMSPropOptimizer(learning_rate=args.learning_rate)
-        # optimizer = tf.train.GradientDescentOptimizer(learning_rate=args.learning_rate)
+       
         grads_and_vars = optimizer.compute_gradients(cnn.loss)
         train_op = optimizer.apply_gradients(grads_and_vars, global_step=global_step)
 
@@ -119,19 +118,17 @@ with tf.Graph().as_default():
         print("Tensorboard logs created at:",tflogs_dir)
         fileWriter=tf.summary.FileWriter(tflogs_dir,tf.get_default_graph())
 
-        # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
+
         checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
 
-        # Initialize all variables
+
         sess.run(tf.global_variables_initializer())
 
         def train_step(x_batch, y_batch):
-            """
-            A single training step
-            """
+
             feed_dict = {
                 cnn.input_x: x_batch,
                 cnn.input_y: y_batch,

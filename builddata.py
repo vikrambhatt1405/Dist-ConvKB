@@ -23,14 +23,12 @@ def init_norm_Vector(relinit, entinit, embedding_size):
     with open(relinit) as f:
         for line in f:
             tmp = [float(val) for val in line.strip().split()]
-            # if np.linalg.norm(tmp) > 1:
-            #     tmp = tmp / np.linalg.norm(tmp)
+
             lstrel.append(tmp)
     with open(entinit) as f:
         for line in f:
             tmp = [float(val) for val in line.strip().split()]
-            # if np.linalg.norm(tmp) > 1:
-            #     tmp = tmp / np.linalg.norm(tmp)
+ 
             lstent.append(tmp)
     assert embedding_size % len(lstent[0]) == 0
     return np.array(lstent, dtype=np.float32), np.array(lstrel, dtype=np.float32)
@@ -168,13 +166,13 @@ def build_data(name='WN18', path='../data'):
         lines = f.readlines()
     for _, line in enumerate(lines):
         head, tail, rel, val = parse_line(line)
-        # count the number of occurrences for each (head, rel)
+
         if relation2id[rel] not in left_entity:
             left_entity[relation2id[rel]] = {}
         if entity2id[head] not in left_entity[relation2id[rel]]:
             left_entity[relation2id[rel]][entity2id[head]] = 0
         left_entity[relation2id[rel]][entity2id[head]] += 1
-        # count the number of occurrences for each (rel, tail)
+ 
         if relation2id[rel] not in right_entity:
             right_entity[relation2id[rel]] = {}
         if entity2id[tail] not in right_entity[relation2id[rel]]:
@@ -230,7 +228,7 @@ def pad_sequences(sequences, pad_tok):
     max_length_word = max([max(map(lambda x: len(x), seq))
                            for seq in sequences])
     for seq in sequences:
-        # all words are same length now
+
         sp, sl = _pad_sequences(seq, pad_tok, max_length_word)
         sequence_padded += [sp]
         sequence_length += [sl]

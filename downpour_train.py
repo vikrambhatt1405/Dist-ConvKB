@@ -110,8 +110,8 @@ elif args.job_name == 'worker':
             local_step = tf.Variable(0,dtype=tf.int32,trainable=False,collections=['local_non_trainable'])
 
             cnn = ConvKB(
-                sequence_length=x_valid.shape[1],  # 3
-                num_classes=y_valid.shape[1],  # 1
+                sequence_length=x_valid.shape[1],  
+                num_classes=y_valid.shape[1],  
                 pre_trained=lstEmbed,
                 embedding_size=args.embedding_dim,
                 filter_sizes=list(map(int, args.filter_sizes.split(","))),
@@ -129,56 +129,52 @@ elif args.job_name == 'worker':
             print(tf.local_variables())
             for t in range(update_window):
                 if t != 0:
-                    with tf.control_dependencies([opt_local]): #compute gradients only if the local opt was run
+                    with tf.control_dependencies([opt_local]): 
                         grads, varss = zip(*local_optimizer.compute_gradients( \
 									cnn.loss,var_list=tf.local_variables()))
                 else:
                     grads, varss = zip(*local_optimizer.compute_gradients( \
 								cnn.loss,var_list=tf.local_variables()))
-                grads_list.append(grads) #add gradients to the list
+                grads_list.append(grads) 
                 opt_local = local_optimizer.apply_gradients(zip(grads,varss),
-							global_step=local_step) #update local parameters
+							global_step=local_step) 
             for i in grads_list:
                 print(i)
             grads_list = tf.convert_to_tensor(grads_list)
-            grads = tf.reduce_sum(grads_list,axis=0) #sum updates before applying globally
+            grads = tf.reduce_sum(grads_list,axis=0)
             grads = tuple([grads[i]for i in range(len(varss))])
 
-			# add these variables created by local optimizer to local collection
+			
             lopt_vars = add_global_variables_to_local_collection()
 
-			# delete the variables from the global collection
+			
             clear_global_collection()
-        # optimizer = tf.train.RMSPropOptimizer(learning_rate=args.learning_rate)
-        # optimizer = tf.train.GradientDescentOptimizer (learning_rate=args.learning_rate)
 
         with tf.device(tf.train.replica_device_setter(ps_tasks=n_pss,worker_device="/job:%s/task:%d" % (args.job_name,args.task_index))):
             global_step = tf.Variable(0,dtype=tf.int32,trainable=False,name='global_step')
 
-			# all workers use the same learning rate and it is decided on by the task 0
-			# or maybe the from the graph of the chief worker
-            optimizer = tf.train.AdagradOptimizer(args.learning_rate) #global optimizer
+			
+            optimizer = tf.train.AdagradOptimizer(args.learning_rate) 
 
-			# create global variables and/or references
+			
             local_to_global, global_to_local = create_global_variables(lopt_vars)
             opt = optimizer.apply_gradients(
 						zip(grads,[local_to_global[v] for v in varss])
-						,global_step=global_step) #apply the gradients to variables on ps
-
-			# Pull params from global server
+						,global_step=global_step) 
+			
             with tf.control_dependencies([opt]):
                 assign_locals = assign_global_to_local(global_to_local)
 
-			# Grab global state before training so all workers have same initialization
+			
             grab_global_init = assign_global_to_local(global_to_local)
 
-			# Assigns local values to global ones for chief to execute
+			
             assign_global = assign_local_to_global(local_to_global)
 
-			# Init ops
-            init = tf.global_variables_initializer() # for global variables
+			
+            init = tf.global_variables_initializer() 
             init_local = tf.variables_initializer(tf.local_variables() \
-						+tf.get_collection('local_non_trainable')) #for local variables
+						+tf.get_collection('local_non_trainable'))
         out_dir = os.path.abspath(os.path.join(args.run_folder, "runs", args.model_name,str(args.task_index)))
         print("Writing to {}\n".format(out_dir))
         tflogs_dir=os.path.abspath(os.path.join(out_dir,"tf_logs"))
@@ -186,21 +182,19 @@ elif args.job_name == 'worker':
         summary_hook = tf.train.SummarySaverHook(save_steps=50,output_dir=tflogs_dir,
                                                  summary_op=cnn.loss_summary)
         hooks=[tf.train.StopAtStepHook(last_step=1000000),summary_hook]
-        #file_writer = tf.summary.FileWriter(out_dir+"tf_logs", tf.get_default_graph())
 
-        # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
         checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
 
-        # Initialize all variables
+
         scaff = tf.train.Scaffold(init_op=init,local_init_op=[init_local])
         sess = tf.train.MonitoredTrainingSession(master=server.target,
         				is_chief=(args.task_index == 0),config=config,scaffold=scaff,
                         hooks=hooks,save_checkpoint_steps=args.saveStep)
         if is_chief:
-            sess.run(assign_global) #Assigns chief's initial values to ps
+            sess.run(assign_global) 
 
 
         def train_step(x_batch, y_batch):
@@ -219,15 +213,4 @@ elif args.job_name == 'worker':
             x_batch,y_batch=train_batch()
             loss,gs,ls=train_step(x_batch,y_batch)
             print(loss,"global step: "+str(gs),"worker: "+str(args.task_index),"local step: "+str(ls))
-            time.sleep(1) # so we can observe training
-            #for epoch in range(args.num_epochs):
-                #for batch_num in range(num_batches_per_epoch):
-                    #x_batch, y_batch = train_batch()
-                    #step,loss= train_step(x_batch, y_batch)
-                    #current_step = tf.train.global_step(sess, global_step)
-                #if epoch > 0:
-                    #if epoch % args.saveStep == 0:
-                        #path = cnn.saver.save(sess, checkpoint_prefix, global_step=epoch)
-                        #print("Saved model checkpoint to {}\n".format(path))
         sess.close()
-        #print('Session from worker %d closed cleanly'%args.task_index)

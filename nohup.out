@@ -1,0 +1,1117 @@
+2018-11-14 20:13:42.949055: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:42.949952: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:42.952469: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:42.967883: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:42.968440: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:42.968824: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.075187: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.076701: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.077131: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.201357: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.201782: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.202159: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.207997: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.208421: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.208775: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.435996: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.436403: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.436739: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.467207: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.467560: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:43.467943: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:44.450395: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 2.00G (2147483648 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:44.450672: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.80G (1932735232 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+2018-11-14 20:13:44.450916: E tensorflow/stream_executor/cuda/cuda_driver.cc:903] failed to allocate 1.62G (1739461632 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=7, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=5, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=6, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=0, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=2, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=1, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=4, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=200, testIdx=3, useConstantInit=True, use_pretrained=True)
+Loading data...
+Using pre-trained model.
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Loaded model /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints/model-200
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=7, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=3, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=4, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=1, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=0, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=5, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=2, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=6, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1536, in restore
+    if not checkpoint_management.checkpoint_exists(compat.as_text(save_path)):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/checkpoint_management.py", line 364, in checkpoint_exists
+    if file_io.get_matching_files(pathname):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/lib/io/file_io.py", line 342, in get_matching_files
+    for single_filename in filename
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/errors_impl.py", line 528, in __exit__
+    c_api.TF_GetCode(self.status.status))
+tensorflow.python.framework.errors_impl.NotFoundError: /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237/checkpoints; No such file or directory
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=6, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=3, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=7, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=4, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+	 [[{{node save/Assign_4/_11}} = _Send[T=DT_FLOAT, client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device_incarnation=1, tensor_name="edge_20_save/Assign_4", _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/Assign_4/_10)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+	 [[{{node save/Assign_4/_11}} = _Send[T=DT_FLOAT, client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device_incarnation=1, tensor_name="edge_20_save/Assign_4", _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/Assign_4/_10)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+	 [[{{node save/Assign_4/_11}} = _Send[T=DT_FLOAT, client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device_incarnation=1, tensor_name="edge_20_save/Assign_4", _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/Assign_4/_10)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+	 [[{{node save/Assign_4/_11}} = _Send[T=DT_FLOAT, client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device_incarnation=1, tensor_name="edge_20_save/Assign_4", _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/Assign_4/_10)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+	 [[{{node save/Assign_4/_11}} = _Send[T=DT_FLOAT, client_terminated=false, recv_device="/job:localhost/replica:0/task:0/device:GPU:0", send_device="/job:localhost/replica:0/task:0/device:CPU:0", send_device_incarnation=1, tensor_name="edge_20_save/Assign_4", _device="/job:localhost/replica:0/task:0/device:CPU:0"](save/Assign_4/_10)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=1, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=0, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=2, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [14778,100] rhs shape= [14778,200]
+	 [[{{node save/Assign_3}} = Assign[T=DT_FLOAT, _class=["loc:@embedding/W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](embedding/W, save/RestoreV2/_7)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [14778,100] rhs shape= [14778,200]
+	 [[node save/Assign_3 (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@embedding/W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](embedding/W, save/RestoreV2/_7)]]
+
+Caused by op 'save/Assign_3', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [14778,100] rhs shape= [14778,200]
+	 [[node save/Assign_3 (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@embedding/W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](embedding/W, save/RestoreV2/_7)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [14778,100] rhs shape= [14778,200]
+	 [[node save/Assign_3 (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@embedding/W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](embedding/W, save/RestoreV2/_7)]]
+
+Caused by op 'save/Assign_3', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [14778,100] rhs shape= [14778,200]
+	 [[node save/Assign_3 (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@embedding/W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](embedding/W, save/RestoreV2/_7)]]
+
+Namespace(allow_soft_placement=True, batch_size=128, data='./data/', decode=True, dropout_keep_prob=1.0, embedding_dim=100, filter_sizes='1', is_trainable=True, l2_reg_lambda=0.001, learning_rate=0.0001, log_device_placement=False, model_index='200', model_name='fb15k237', name='FB15k-237', neg_ratio=1.0, num_epochs=201, num_filters=50, num_splits=8, run_folder='../', saveStep=50, testIdx=5, useConstantInit=True, use_pretrained=False)
+Loading data...
+Loading data... finished!
+Evaluating /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/runs/fb15k237
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1334, in _do_call
+    return fn(*args)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1319, in _run_fn
+    options, feed_dict, fetch_list, target_list, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1407, in _call_tf_sessionrun
+    run_metadata)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[{{node save/Assign}} = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1546, in restore
+    {self.saver_def.filename_tensor_name: save_path})
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 929, in run
+    run_metadata_ptr)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1152, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1328, in _do_run
+    run_metadata)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1348, in _do_call
+    raise type(e)(node_def, op, message)
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval.py", line 165, in <module>
+    cnn.saver.restore(sess, _file)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1582, in restore
+    err, "a mismatch between the current graph and the graph")
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+
+Caused by op 'save/Assign', defined at:
+  File "eval.py", line 144, in <module>
+    useConstantInit=args.useConstantInit)
+  File "/home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py", line 90, in __init__
+    self.saver = tf.train.Saver(tf.global_variables(), max_to_keep=500)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1102, in __init__
+    self.build()
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1114, in build
+    self._build(self._filename, build_save=True, build_restore=True)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 1151, in _build
+    build_save=build_save, build_restore=build_restore)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 795, in _build_internal
+    restore_sequentially, reshape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 428, in _AddRestoreOps
+    assign_ops.append(saveable.restore(saveable_tensors, shapes))
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/training/saver.py", line 119, in restore
+    self.op.get_shape().is_fully_defined())
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/state_ops.py", line 221, in assign
+    validate_shape=validate_shape)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/ops/gen_state_ops.py", line 61, in assign
+    use_locking=use_locking, name=name)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py", line 787, in _apply_op_helper
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 488, in new_func
+    return func(*args, **kwargs)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 3274, in create_op
+    op_def=op_def)
+  File "/home/vikrambhatt/.local/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 1770, in __init__
+    self._traceback = tf_stack.extract_stack()
+
+InvalidArgumentError (see above for traceback): Restoring from checkpoint failed. This is most likely due to a mismatch between the current graph and the graph from the checkpoint. Please ensure that you have not altered the graph expected based on the checkpoint. Original error:
+
+Assign requires shapes of both tensors to match. lhs shape= [5000,1] rhs shape= [10000,1]
+	 [[node save/Assign (defined at /home/vikrambhatt/Academics/Machine Learning with Large datasets/Convulational_KB/Dist-ConvKB/model.py:90)  = Assign[T=DT_FLOAT, _class=["loc:@W"], use_locking=true, validate_shape=true, _device="/job:localhost/replica:0/task:0/device:GPU:0"](W, save/RestoreV2/_1)]]
+

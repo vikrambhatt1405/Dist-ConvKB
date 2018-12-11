@@ -121,8 +121,7 @@ elif args.job_name == 'worker':
                 useConstantInit=args.useConstantInit)
 
             optimizer = tf.train.AdamOptimizer(learning_rate=args.learning_rate)
-        # optimizer = tf.train.RMSPropOptimizer(learning_rate=args.learning_rate)
-        # optimizer = tf.train.GradientDescentOptimizer(learning_rate=args.learning_rate)
+
             train_op=optimizer.minimize(cnn.loss,global_step=global_step)
 
 
@@ -134,22 +133,16 @@ elif args.job_name == 'worker':
         summary_hook = tf.train.SummarySaverHook(save_steps=50,output_dir=tflogs_dir,
                                                  summary_op=cnn.loss_summary)
         hooks=[tf.train.StopAtStepHook(last_step=1000000),summary_hook]
-        #file_writer = tf.summary.FileWriter(out_dir+"tf_logs", tf.get_default_graph())
 
-        # Checkpoint directory. Tensorflow assumes this directory already exists so we need to create it
         checkpoint_dir = os.path.abspath(os.path.join(out_dir, "checkpoints"))
         checkpoint_prefix = os.path.join(checkpoint_dir, "model")
         if not os.path.exists(checkpoint_dir):
             os.makedirs(checkpoint_dir)
 
-        # Initialize all variables
         sess = tf.train.MonitoredTrainingSession(master=server.target,
         				is_chief=(args.task_index == 0),
                         hooks=hooks)
         def train_step(x_batch, y_batch):
-            """
-            A single training step
-            """
             feed_dict = {
                 cnn.input_x: x_batch,
                 cnn.input_y: y_batch,
