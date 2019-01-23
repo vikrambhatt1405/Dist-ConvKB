@@ -5,7 +5,7 @@ import java.util.zip.GZIPInputStream;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        // write your code here
+
         String filename = "/home/vikrambhatt/ExternalStorage/freebase-rdf-latest.gz";
         InputStream fileStream = new FileInputStream(filename);
         InputStream gzipStream = new GZIPInputStream(fileStream);
